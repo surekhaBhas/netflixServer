@@ -28,7 +28,6 @@ const handleLogin=async(req,res)=>{
     }else{
         res.sendStatus(401)
     }
-
 }
 
 module.exports=handleLogin
